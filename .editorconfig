@@ -12,7 +12,7 @@ tab_width                = 4
 trim_trailing_whitespace = true
 
 [**.spec]
-max_line_length = 72
+max_line_length          = unset
 
 [**/_service]
 indent_size              = 2
