@@ -13,3 +13,31 @@ trim_trailing_whitespace = true
 
 [**.spec]
 max_line_length = 72
+
+[**/_service]
+indent_size              = 2
+
+[**/_servicedata]
+indent_size              = unset
+insert_final_newline     = unset
+max_line_length          = unset
+
+[**.tar.xz]
+charset                  = unset
+end_of_line              = unset
+indent_size              = unset
+indent_style             = unset
+insert_final_newline     = unset
+max_line_length          = unset
+tab_width                = unset
+trim_trailing_whitespace = unset
+
+[.github/workflows/*.yaml]
+indent_size              = 2
+
+[**/.osc/**]
+indent_size              = unset
+max_line_length          = unset
+
+[LICENSE]
+indent_size              = unset
