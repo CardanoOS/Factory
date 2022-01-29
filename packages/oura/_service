@@ -2,7 +2,7 @@
   <service mode="disabled" name="tar_scm">
     <param name="url">https://github.com/txpipe/oura.git</param>
     <param name="scm">git</param>
- <!--   <param name="extract">.osc/oura.spec</param> -->
+    <!--   <param name="extract">.osc/oura.spec</param> -->
     <param name="changesgenerate">enable</param>
     <param name="filename">oura</param>
     <param name="revision">v1.0.2</param>
@@ -22,6 +22,6 @@
     <param name="update">true</param>
   </service>
   <service mode="disabled" name="cargo_audit">
-     <param name="srcdir">oura</param>
+    <param name="srcdir">oura</param>
   </service>
 </services>
