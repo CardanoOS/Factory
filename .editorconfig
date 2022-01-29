@@ -22,6 +22,9 @@ indent_size              = unset
 insert_final_newline     = unset
 max_line_length          = unset
 
+[**/cargo_config]
+insert_final_newline     = false
+
 [**.tar.xz]
 charset                  = unset
 end_of_line              = unset
