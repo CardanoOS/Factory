@@ -13,3 +13,13 @@ trim_trailing_whitespace = true
 
 [**.spec]
 max_line_length = 72
+
+[.github/workflows/*.yaml]
+indent_size              = 2
+
+[**/.osc/**]
+indent_size              = unset
+max_line_length          = unset
+
+[LICENSE]
+indent_size              = unset
