@@ -21,4 +21,4 @@ jobs:
     runs-on: ubuntu-latest
     needs: [lints-editorconfig]
     steps:
-     - run: echo "All lints successful"
+      - run: echo "All lints successful"
