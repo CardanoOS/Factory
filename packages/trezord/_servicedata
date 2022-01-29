@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/trezor/trezord-go.git</param>
+              <param name="changesrevision">5f53132b61ac68e83d0fb6a3cd71866bf549c932</param></service></servicedata>
