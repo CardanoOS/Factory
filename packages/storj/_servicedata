@@ -1,0 +1,4 @@
+<servicedata>
+<service name="tar_scm">
+                <param name="url">https://github.com/storj/storj.git</param>
+              <param name="changesrevision">74aed9097c86383b705565eb499f7c50daf89b39</param></service></servicedata>
