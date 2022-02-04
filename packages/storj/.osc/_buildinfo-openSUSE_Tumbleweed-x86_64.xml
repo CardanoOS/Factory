@@ -1,0 +1,186 @@
+<buildinfo project="home:CardanoOS:Factory" repository="openSUSE_Tumbleweed" downloadurl="https://download.opensuse.org/repositories">
+  <arch>x86_64</arch>
+  <debuginfo>0</debuginfo>
+  <subpack>storj</subpack>
+  <subpack>storj-identity</subpack>
+  <subpack>storj-multinode</subpack>
+  <subpack>storj-storagenode</subpack>
+  <subpack>storj-storagenode-updater</subpack>
+  <subpack>storj-uplink</subpack>
+  <subpack>storj-uplinkng</subpack>
+  <bdep name="liblua5_4-5" preinstall="1" notmeta="1" version="5.4.3" release="6.2" arch="x86_64" hdrmd5="d8b8fa949ee9927dacf1c63573ae757b" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="aaa_base" preinstall="1" notmeta="1" version="84.87+git20211124.5486aad" release="1.2" arch="x86_64" hdrmd5="17306ca5db38cc71782f1456308461ca" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="filesystem" preinstall="1" notmeta="1" version="84.87" release="3.2" arch="x86_64" hdrmd5="cc740255bf41091a4a64d050bbd6fb74" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="attr" preinstall="1" notmeta="1" version="2.5.1" release="1.15" arch="x86_64" hdrmd5="6dfa32b4cd88d432bebd6f5edeb6d602" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="bash" preinstall="1" notmeta="1" version="5.1.16" release="5.1" arch="x86_64" hdrmd5="3bf377e15b5e2eb75ac28686b87214ff" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="bash-sh" preinstall="1" notmeta="1" version="5.1.16" release="5.1" arch="x86_64" hdrmd5="f159c63fc42e2b8495f0fb17b4bf7d27" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="coreutils" preinstall="1" notmeta="1" version="9.0" release="2.2" arch="x86_64" hdrmd5="5b70394709f131746b88a7749110a5ba" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="diffutils" preinstall="1" notmeta="1" version="3.8" release="2.3" arch="x86_64" hdrmd5="1d46650ea52da06498b4f82c7743bda6" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="fillup" preinstall="1" notmeta="1" version="1.42" release="276.8" arch="x86_64" hdrmd5="18904818ed8dee131c78befb84e04a9e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="glibc" preinstall="1" notmeta="1" version="2.34" release="4.3" arch="x86_64" hdrmd5="baf2e4b347f435515f4acfb55d1792fa" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="grep" preinstall="1" notmeta="1" version="3.7" release="1.4" arch="x86_64" hdrmd5="cefa3857a1042160485223698581452b" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="pam" preinstall="1" notmeta="1" version="1.5.2" release="5.3" arch="x86_64" hdrmd5="6aa4d0de70965a07a4f7c8fe645462c9" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="permissions" preinstall="1" notmeta="1" version="20210901.1599" release="29.2" arch="x86_64" hdrmd5="255729b2aecd6f56d55f73c85544fadb" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rpm" preinstall="1" notmeta="1" version="4.17.0" release="2.4" arch="x86_64" hdrmd5="759e3ae349394446dc566ab69c04051d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rpm-config-SUSE" preinstall="1" notmeta="1" version="0.g93" release="1.1" arch="noarch" hdrmd5="7d8ef778c2a1ea46cdbd1beb5112430a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="sed" preinstall="1" notmeta="1" version="4.8" release="3.9" arch="x86_64" hdrmd5="6025383042d16dc39af559db23e0c783" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="tar" preinstall="1" notmeta="1" version="1.34" release="5.2" arch="x86_64" hdrmd5="74591f3bd72d5b8524b1bb7e6aa8ea05" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libbz2-1" preinstall="1" notmeta="1" version="1.0.8" release="3.4" arch="x86_64" hdrmd5="f520f1cdbcb62f24de7f88aed561d7fb" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgcc_s1" preinstall="1" notmeta="1" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="61cbff196e0a89b03abbc3e58affe576" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libncurses6" preinstall="1" notmeta="1" version="6.3.20220115" release="8.2" arch="x86_64" hdrmd5="6e5aeb0790e5799516d516313e8ba17b" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libreadline8" preinstall="1" notmeta="1" version="8.1" release="3.1" arch="x86_64" hdrmd5="86668f4412c2d3ec7e9bfcb17f5c34f9" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libz1" preinstall="1" notmeta="1" version="1.2.11" release="18.19" arch="x86_64" hdrmd5="7357e48c76934a799f70ab86b1cc3a18" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libselinux1" preinstall="1" notmeta="1" version="3.3" release="1.3" arch="x86_64" hdrmd5="bf2f9045e0a4e9b351e7f34a2d7d3c99" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgcrypt20" preinstall="1" notmeta="1" version="1.9.4" release="2.3" arch="x86_64" hdrmd5="581fe64ef4e20840d511da1e9772074f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgpg-error0" preinstall="1" notmeta="1" version="1.43" release="1.3" arch="x86_64" hdrmd5="f2b30d4fac7c30e669b8fa4f1dde755f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="liblzma5" preinstall="1" notmeta="1" version="5.2.5" release="2.4" arch="x86_64" hdrmd5="ce26437d046eb6c43c72d06230a3c74e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libcap2" preinstall="1" notmeta="1" version="2.62" release="1.2" arch="x86_64" hdrmd5="35d46dbe30867d418546cdc7ac44feb9" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libacl1" preinstall="1" notmeta="1" version="2.3.1" release="1.16" arch="x86_64" hdrmd5="d7e5e92e06e617b2f26643f1d3c0c1a6" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libattr1" preinstall="1" notmeta="1" version="2.5.1" release="1.15" arch="x86_64" hdrmd5="4a8de9cf2ca59f47b85093cc32a25afb" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libpopt0" preinstall="1" notmeta="1" version="1.18" release="2.19" arch="x86_64" hdrmd5="532b42af74e4a837eaeeb54a7dd12cef" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libelf1" preinstall="1" notmeta="1" version="0.186" release="1.3" arch="x86_64" hdrmd5="0903b1509732070cd017aa41ad2a19cd" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libpcre1" preinstall="1" notmeta="1" version="8.45" release="1.4" arch="x86_64" hdrmd5="01ffe284546ad7e4c88ee0fef92e2faf" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libzstd1" preinstall="1" notmeta="1" version="1.5.1" release="2.2" arch="x86_64" hdrmd5="b065a5332ed6fa04aba4a46982b7dd31" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libpcre2-8-0" preinstall="1" notmeta="1" version="10.39" release="1.3" arch="x86_64" hdrmd5="1940d18b7c740708a6c9857975bf7026" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="util-linux" vminstall="1" version="2.37.3" release="1.1" arch="x86_64" hdrmd5="5402daf7090e5cbc72019932c97a1642" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libmount1" vminstall="1" version="2.37.3" release="1.1" arch="x86_64" hdrmd5="babd233f6323b66965f1c0723c472ed5" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="perl-base" vminstall="1" notmeta="1" version="5.34.0" release="1.3" arch="x86_64" hdrmd5="4bbce4510af20c2bd12a7a0039f443d5" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libdb-4_8" vminstall="1" notmeta="1" version="4.8.30" release="38.40" arch="x86_64" hdrmd5="01a25c279cf792067e22b6b8c0a6f9c8" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libblkid1" vminstall="1" version="2.37.3" release="1.1" arch="x86_64" hdrmd5="a2161787b8ecfad6eea1add83ad32a5e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libuuid1" vminstall="1" version="2.37.3" release="1.1" arch="x86_64" hdrmd5="c0fbc38efa5c513296203b88eb751303" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsmartcols1" vminstall="1" version="2.37.3" release="1.1" arch="x86_64" hdrmd5="6ac2b7c3d86536111f9c28c2c1c8e609" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libcrypt1" vminstall="1" version="4.4.27" release="1.2" arch="x86_64" hdrmd5="206cfce0649635a4186e80612a6a8d3d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="kernel-obs-build" vminstall="1" notmeta="1" version="5.16.4" release="1.1" arch="x86_64" hdrmd5="396cf8b01d4c2ae351c868ded6068e24" project="openSUSE:Tumbleweed" repository="standard"/>
+  <bdep name="iproute2" vminstall="1" notmeta="1" version="5.16" release="1.1" arch="x86_64" hdrmd5="9b52cfe32ea5349155f3938f0e1c6468" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libmnl0" vminstall="1" notmeta="1" version="1.0.4" release="2.8" arch="x86_64" hdrmd5="5129c93e377c82852ab973a6db9ecf6a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="golang-packaging" version="15.0.15" release="1.5" arch="noarch" hdrmd5="b4a92dac2dabbc18b6688b40660de95d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="go" version="1.17" release="1.2" arch="x86_64" hdrmd5="08edcd600363fa50ded2b33d89b534f0" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rpm-build" version="4.17.0" release="2.4" arch="x86_64" hdrmd5="add7e116a5b993e887cd2e1b65e90d08" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gcc-PIE" version="11" release="4.3" arch="x86_64" hdrmd5="c1f77881d07861519983bff0ed66888a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="go1.17" version="1.17.6" release="1.1" arch="x86_64" hdrmd5="e797a2e62dad617a075871ac5217a11b" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="findutils" version="4.8.0" release="3.3" arch="x86_64" hdrmd5="e84ade95fe85008bd463ff3c7953208b" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="glibc-devel" version="2.34" release="4.3" arch="x86_64" hdrmd5="689ea3ac71cb94586a156ca4ed3e49b2" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gcc" version="11" release="4.3" arch="x86_64" hdrmd5="aea18f51e011278c62af84f96453ef75" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="xz" version="5.2.5" release="2.4" arch="x86_64" hdrmd5="8a20aeeb439723a44a30d5d3f552a9c8" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="cpio" version="2.13" release="4.3" arch="x86_64" hdrmd5="235d822dbddaefa96a19f6a297239051" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="file" version="5.41" release="1.3" arch="x86_64" hdrmd5="a3a4b411a394fdde61a36045ed4445b3" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="bzip2" version="1.0.8" release="3.4" arch="x86_64" hdrmd5="14fe222de1fbb31f6ea8cff048b8f211" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gawk" version="5.1.1" release="3.3" arch="x86_64" hdrmd5="f15e0c3807b67bb4d3eeaad6ca4aabee" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gzip" version="1.11" release="1.3" arch="x86_64" hdrmd5="84928a87ac0a8b95b7c53306a7c94dd5" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="binutils" version="2.37" release="3.3" arch="x86_64" hdrmd5="4dfa4545771adc6799e64eef9fb4e787" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="make" version="4.3" release="2.37" arch="x86_64" hdrmd5="29016f8f096c8b0ff5adc83018b7db86" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libdw1" version="0.186" release="1.3" arch="x86_64" hdrmd5="f01f59cccf105e6da1d95ba235b8465e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="patch" version="2.7.6" release="4.3" arch="x86_64" hdrmd5="de043df5cca72f1c7721eb73efa8891d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="which" version="2.21" release="4.47" arch="x86_64" hdrmd5="2c0c2475d56086319fb4d12febee1819" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="glibc-locale" version="2.34" release="4.3" arch="x86_64" hdrmd5="b961fbf93019addf59030bf582bd2ae7" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gettext-tools" version="0.21" release="3.3" arch="x86_64" hdrmd5="66faecdb16c0822bd30a1f8b258ebc8d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="librpmbuild9" version="4.17.0" release="2.4" arch="x86_64" hdrmd5="1694874670717dde044c9643fe9614a2" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="systemd-rpm-macros" version="15" release="1.1" arch="noarch" hdrmd5="a996eb70e2c8318cbecb042bd98487a8" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="dwz" version="0.14" release="2.1" arch="x86_64" hdrmd5="53e1c2b91a63e553a7dac64b052e12df" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="update-alternatives" version="1.20.9" release="1.4" arch="x86_64" hdrmd5="1b44c7843906eb51fb783997a03d09e5" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="linux-glibc-devel" version="5.16" release="1.1" arch="x86_64" hdrmd5="33c9a79a20d772b467c4cf4565477641" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libxcrypt-devel" version="4.4.27" release="1.2" arch="x86_64" hdrmd5="feb2d65f314b5849a2252d459040b805" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libaudit1" version="3.0.6" release="2.3" arch="x86_64" hdrmd5="9bdf3d50f740375c761603a68ba940b1" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libcap-ng0" version="0.7.11" release="1.3" arch="x86_64" hdrmd5="e26f8ad6636539190bf95c25c4ebee6e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libeconf0" version="0.4.4+git20220104.962774f" release="1.2" arch="x86_64" hdrmd5="279bd1397d18059f235baea20538dd66" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libutempter0" version="1.2.0" release="3.17" arch="x86_64" hdrmd5="9e02b43a8029afe7b19240a64b2b1d68" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libfdisk1" version="2.37.3" release="1.1" arch="x86_64" hdrmd5="913137747f300b2252222d23740eb091" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="system-group-hardware" version="20170617" release="24.3" arch="noarch" hdrmd5="e58788841e2cb328dbf12d89dd50d7fe" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gcc11" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="f450dc8927fb13ce33f34930c38f5682" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="cpp" version="11" release="4.3" arch="x86_64" hdrmd5="30d00a9d599eb407e86ef73e62753120" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libmagic1" version="5.41" release="1.3" arch="x86_64" hdrmd5="cec7980da6dd0b2ba0e237863b3055da" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgmp10" version="6.2.1" release="4.3" arch="x86_64" hdrmd5="9edf695926816aefcef06eca1b211e44" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libmpfr6" version="4.1.0" release="2.16" arch="x86_64" hdrmd5="e8611925f2bba8f3ff0c810e6d5bd320" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libstdc++6" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="baa9672a802aac0bb0150c2d67b56f5d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libctf-nobfd0" version="2.37" release="3.3" arch="x86_64" hdrmd5="b6c497459535d690f58698e984408ede" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libctf0" version="2.37" release="3.3" arch="x86_64" hdrmd5="568496e51bf81f469102224cbb786a53" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="glibc-locale-base" version="2.34" release="4.3" arch="x86_64" hdrmd5="b607d6068b38cbf544b1bfe5e17dec07" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libxml2-2" version="2.9.12" release="2.3" arch="x86_64" hdrmd5="9fd8433ff937664e5127f7708917cd28" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libtextstyle0" version="0.21" release="3.3" arch="x86_64" hdrmd5="699e0e10f4b701eec144586181c5213f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gettext-runtime" version="0.21" release="3.3" arch="x86_64" hdrmd5="52dd8c589f57f1fe80ca7fbae17fac07" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="system-user-root" version="20190513" release="1.38" arch="noarch" hdrmd5="f8205cd2213f6d6db110499d1771b7e8" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="compat-usrmerge-tools" version="84.87" release="5.4" arch="x86_64" hdrmd5="1fa6cef28e8ae546d9e2808534a526fe" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="pkgconf-pkg-config" version="1.8.0" release="1.4" arch="x86_64" hdrmd5="afde245c1cd1c4f0d2682715dc3e0028" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="terminfo-base" version="6.3.20220115" release="8.2" arch="x86_64" hdrmd5="c6130c5b6df7d0f2bed33ee8c91e0a5e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="pam_unix" version="1.5.2" release="5.3" arch="x86_64" hdrmd5="d35e1e53c3b824916944dbbe78b7b6ab" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="chkstat" version="1599_20210901" release="29.2" arch="x86_64" hdrmd5="f40a5f3b6f3826e56765a440d6c5e11c" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="permissions-config" version="1599_20210901" release="29.2" arch="x86_64" hdrmd5="1c2532d91a96c6aa1c97f6759a98522d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="sysuser-shadow" version="3.1" release="3.4" arch="noarch" hdrmd5="f6cfeccbf71604b4e392c8d97608e9d2" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libmpc3" version="1.2.1" release="1.17" arch="x86_64" hdrmd5="3c94699bc43fc50fabd9f568143cf5a7" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libisl23" version="0.24" release="1.15" arch="x86_64" hdrmd5="184d45f5e686e7f5ac1cfc647af73738" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="cpp11" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="39b969683d0adcdd4856e4acb2f9d04f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libasan6" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="22fd2a3054c31ac79dfa61ffd7a33217" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libatomic1" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="2569b95b0c1fd9643b1da823eec17eba" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgomp1" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="5998078ef6d9ad7a02d0c53a3a14a9c5" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libitm1" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="593dc365acfdbc1341cc1948c435a6d2" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="liblsan0" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="20c72229a32f7f4eeb871bbdd04065a0" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libtsan0" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="cfd9f822a1a1bbd36379b1dc37244279" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libubsan1" version="11.2.1+git1173" release="1.2" arch="x86_64" hdrmd5="ccb01792e78b69c74fa5861a31110481" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="file-magic" version="5.41" release="1.3" arch="noarch" hdrmd5="12829a4067db95c5968cd055e8a4913d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="pkgconf" version="1.8.0" release="1.4" arch="x86_64" hdrmd5="46c0a7561639e64de09ca20b4d935979" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="pkgconf-m4" version="1.8.0" release="1.4" arch="noarch" hdrmd5="0cee571fe5b78e02df36867c3d6a4b32" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libpkgconf3" version="1.8.0" release="1.4" arch="x86_64" hdrmd5="5cc2ce2b5f923f39a7d08c693aaf356e" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="shadow" version="4.11.1" release="1.1" arch="x86_64" hdrmd5="708f50a80fe08558b7f9b6bc33dfc403" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsemanage2" version="3.3" release="1.3" arch="x86_64" hdrmd5="a7b979c0af3218d0ca362721e1d3710f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsubid4" version="4.11.1" release="1.1" arch="x86_64" hdrmd5="5c7bc64fecc87eacbdef5f1914c1ca78" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="login_defs" version="4.11.1" release="1.1" arch="noarch" hdrmd5="0f20e4bcc8732b9c050b3f74f3d734f9" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsepol2" version="3.3" release="1.3" arch="x86_64" hdrmd5="208583275a323a2097b6f1bcef7e49ad" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsemanage-conf" version="3.3" release="1.3" arch="x86_64" hdrmd5="3d57bcd7c30ef5cf549f29346ba1b808" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="gdb" notmeta="1" version="11.1" release="4.3" arch="x86_64" hdrmd5="c3e8ff34eea6c523ee89128bb42bcea6" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="vim" notmeta="1" version="8.2.4186" release="1.1" arch="x86_64" hdrmd5="20e7ae468019a23b8dec27ecf4cc3996" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="strace" notmeta="1" version="5.16" release="1.1" arch="x86_64" hdrmd5="456b4cc726576cd3deaad3cf3f2af472" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="less" notmeta="1" version="590" release="3.3" arch="x86_64" hdrmd5="6f94a4d07f2704981ad775a41dfddb32" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rzsz" notmeta="1" version="0.12.21~rc" release="4.6" arch="x86_64" hdrmd5="8adf040c53ac95f92beb3bc072e85e71" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="perl" notmeta="1" version="5.34.0" release="1.3" arch="x86_64" hdrmd5="36a4ce05d8656d8e015f8e246b57ffb0" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="build-mkbaselibs" notmeta="1" version="20211125" release="1.3" arch="noarch" hdrmd5="3aa9d2da30011feb35c17f2e09141484" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="compat-usrmerge-build" notmeta="1" version="84.87" release="5.4" arch="x86_64" hdrmd5="26a87bc7ac5db899b0b58f93d2784a7f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="brp-check-suse" notmeta="1" version="84.87+git20211116.6c5fe09" release="1.2" arch="x86_64" hdrmd5="bffecd255e248556c345124c487dd515" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="post-build-checks" notmeta="1" version="84.87+git20220128.77a97b9" release="1.1" arch="noarch" hdrmd5="63a0fd9a628c2403701700630171600a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="hostname" notmeta="1" version="3.23" release="2.8" arch="x86_64" hdrmd5="96f769f434364659ae8846cc656928a0" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="build-compare" notmeta="1" version="20210921T214418.86d06d9" release="1.3" arch="noarch" hdrmd5="40592071ff233fb3672e0a9a0f049e10" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rpmlint-mini" notmeta="1" version="2.2.0+git20220127.05573d9" release="3.5" arch="x86_64" hdrmd5="087346de2c01958d056ceb85699ddeda" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libpython3_8-1_0" notmeta="1" version="3.8.12" release="3.3" arch="x86_64" hdrmd5="95aadb8f78ef74caa0eef12883fe3557" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libexpat1" notmeta="1" version="2.4.4" release="1.1" arch="x86_64" hdrmd5="21be21147d97f460e4c2bd21c7fe862c" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="python38-base" notmeta="1" version="3.8.12" release="3.3" arch="x86_64" hdrmd5="fafb18c1021c36bc28b93bf25a119ef2" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="babeltrace" notmeta="1" version="1.5.8" release="3.1" arch="x86_64" hdrmd5="bb1c2e976c73d635795b97c80f769765" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsource-highlight4" notmeta="1" version="3.1.9" release="4.2" arch="x86_64" hdrmd5="8fdd48eb727e5217016a011f6694d499" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="alts" notmeta="1" version="1.2+3.b848aad" release="2.2" arch="x86_64" hdrmd5="afc881232dbbac9edafa9f1f9a1c9266" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="vim-data-common" notmeta="1" version="8.2.4186" release="1.1" arch="noarch" hdrmd5="02b1645f20f56123fac3fd028ab2b05f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="ncurses-utils" notmeta="1" version="6.3.20220115" release="8.2" arch="x86_64" hdrmd5="022261ab3ee0d4df8bc11e638e66b4ae" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgdbm6" notmeta="1" version="1.22" release="1.3" arch="x86_64" hdrmd5="8635dbbb0ed3f26b3eed37d70e8baf9d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgdbm_compat4" notmeta="1" version="1.22" release="1.3" arch="x86_64" hdrmd5="95312264cfe42cd1c281a42d3b82cc0c" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="aaa_base-malloccheck" notmeta="1" version="84.87+git20211124.5486aad" release="1.2" arch="x86_64" hdrmd5="dda0c169057b268434e3973d5bceeb97" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="polkit-default-privs" notmeta="1" version="1550+20211214.daf2765" release="1.1" arch="noarch" hdrmd5="fe08d878d88a1fee8919bf033e5b7780" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rpm-build-perl" notmeta="1" version="4.17.0" release="2.4" arch="x86_64" hdrmd5="ed794ecf16489ea761e121f161b414e9" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="rpm-build-python" notmeta="1" version="4.17.0" release="2.4" arch="x86_64" hdrmd5="86c3ab46f2a1656d470c25e6906343bd" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libopenssl1_1" notmeta="1" version="1.1.1m" release="1.2" arch="x86_64" hdrmd5="e956243eaa15678f11d4cd98e72ce67f" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libffi8" notmeta="1" version="3.4.2" release="1.3" arch="x86_64" hdrmd5="1303016d2cdcb90227fe8ab2ea04568a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libmpdec3" notmeta="1" version="2.5.1" release="2.4" arch="x86_64" hdrmd5="2ee6366f92d09fca7b15e54eefc4b2c0" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libglib-2_0-0" notmeta="1" version="2.70.3" release="1.1" arch="x86_64" hdrmd5="8f1b9427b8ddb9499a689371246dc09a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libgmodule-2_0-0" notmeta="1" version="2.70.3" release="1.1" arch="x86_64" hdrmd5="7a4edb5a5f27cefe0124cb6362e9205d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libalternatives1" notmeta="1" version="1.2+3.b848aad" release="2.2" arch="x86_64" hdrmd5="da98e51527733d8623a7a880bbcb2b2c" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="python-rpm-macros" notmeta="1" version="20220106.80d3756" release="1.2" arch="noarch" hdrmd5="b2f92b6c46dab29973036fcc54cb8b97" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="crypto-policies" notmeta="1" version="20210917.c9d86d1" release="1.3" arch="noarch" hdrmd5="42e13c5718a42bdca52c25d65d04042c" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libdebuginfod1" notmeta="1" version="0.186" release="1.3" arch="x86_64" hdrmd5="3ef645082b225b78a8d63a45e046a4e3" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libcurl4" notmeta="1" version="7.81.0" release="1.1" arch="x86_64" hdrmd5="f4f8babea1c8cb47ef021070a1e131f9" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libldap-2_4-2" notmeta="1" version="2.4.59" release="71.2" arch="x86_64" hdrmd5="c17be0fc51af88ef9903d799753c8d34" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="krb5" notmeta="1" version="1.19.2" release="3.4" arch="x86_64" hdrmd5="dc2c624480da674dbcb78a2b61f04616" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libbrotlidec1" notmeta="1" version="1.0.9" release="1.6" arch="x86_64" hdrmd5="ae5e7199cd82f5ea9594f5f2434a4160" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libssh4" notmeta="1" version="0.9.6" release="3.1" arch="x86_64" hdrmd5="03e96475f51434c9bf0f187b6d92f944" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libidn2-0" notmeta="1" version="2.3.2" release="1.3" arch="x86_64" hdrmd5="4c5c2896065b82ab01833bc628917801" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libnghttp2-14" notmeta="1" version="1.46.0" release="1.3" arch="x86_64" hdrmd5="7b638a4204991ad3a379f352231abf89" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libpsl5" notmeta="1" version="0.21.1" release="1.8" arch="x86_64" hdrmd5="d4fdea678d24d965d56156411b52f915" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libsasl2-3" notmeta="1" version="2.1.27" release="6.1" arch="x86_64" hdrmd5="606c7bc894ff8668e8dca3ebde32cc2a" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libcom_err2" notmeta="1" version="1.46.4" release="3.3" arch="x86_64" hdrmd5="1b44bf2de3f519a985564a24bb615706" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libkeyutils1" notmeta="1" version="1.6.3" release="3.4" arch="x86_64" hdrmd5="c84563687cecb1e0d8d48b85dd14af04" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libverto1" notmeta="1" version="0.3.1" release="1.18" arch="x86_64" hdrmd5="bf1f73b900feb6eab225c0a0ffcc4d9d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libbrotlicommon1" notmeta="1" version="1.0.9" release="1.6" arch="x86_64" hdrmd5="9e09baf6e543d204209f9f7d7a68efac" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libssh-config" notmeta="1" version="0.9.6" release="3.1" arch="x86_64" hdrmd5="8ecc7efb01ee2a2ae123c484d764c81b" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="libunistring2" notmeta="1" version="0.9.10" release="2.13" arch="x86_64" hdrmd5="b0b60cca6566d5ee3a1f820d9110de16" project="openSUSE:Tumbleweed" repository="dod"/>
+  <bdep name="lua54" notmeta="1" version="5.4.3" release="6.2" arch="x86_64" hdrmd5="9a3a5df57d28b3bb6d5a2c3ee344543d" project="openSUSE:Tumbleweed" repository="dod"/>
+  <path project="home:CardanoOS:Factory" repository="openSUSE_Tumbleweed" url="https://download.opensuse.org/repositories/home:/CardanoOS:/Factory/openSUSE_Tumbleweed/"/>
+  <path project="openSUSE:Factory" repository="snapshot" url="http://download.opensuse.org/tumbleweed/repo/oss/"/>
+  <path project="openSUSE:Tumbleweed" repository="standard" url="https://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/"/>
+  <path project="openSUSE:Tumbleweed" repository="dod" url="http://download.opensuse.org/tumbleweed/repo/oss/"/>
+  <path project="openSUSE:Factory" repository="ports" url="https://download.opensuse.org/repositories/openSUSE:/Factory/ports/"/>
+</buildinfo>

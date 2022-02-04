@@ -1,0 +1,8 @@
+openSUSE_Tumbleweed x86_64
+openSUSE_Tumbleweed riscv64
+openSUSE_Tumbleweed aarch64
+openSUSE_Factory_RISCV riscv64
+openSUSE_Factory_PowerPC ppc64
+openSUSE_Factory_PowerPC ppc64le
+openSUSE_Factory_ARM aarch64
+openSUSE_Factory_ARM armv7l

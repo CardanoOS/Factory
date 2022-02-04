@@ -1,0 +1,22 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">https://github.com/storj/storj.git</param>
+    <param name="scm">git</param>
+    <param name="filename">storj</param>
+    <param name="revision">v1.47.3</param>
+    <param name="versionformat">@PARENT_TAG@</param>
+    <param name="changesgenerate">enable</param>
+    <param name="versionrewrite-pattern">v(.*)</param>
+  </service>
+  <service mode="disabled" name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">gz</param>
+  </service>
+  <service mode="disabled" name="set_version"/>
+  <service mode="disabled" name="go_modules">
+  </service>
+  <service mode="disabled" name="recompress">
+    <param name="file">*.tar.gz</param>
+    <param name="compression">xz</param>
+  </service>
+</services>
