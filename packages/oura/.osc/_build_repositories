@@ -1,5 +1,5 @@
-openSUSE_Tumbleweed i586
 openSUSE_Tumbleweed x86_64
+openSUSE_Factory_zSystems s390x
 openSUSE_Factory_RISCV riscv64
 openSUSE_Factory_PowerPC ppc64
 openSUSE_Factory_PowerPC ppc64le

@@ -6,9 +6,9 @@
     <param name="changesgenerate">enable</param>
     <param name="filename">oura</param>
     <param name="revision">v1.0.2</param>
-    <param name="versionformat">@PARENT_TAG@~git@TAG_OFFSET@.%h</param>
-    <param name="versionrewrite-pattern">v(\d+\.\d+\.\d+)</param>
-    <param name="versionrewrite-replacement">\1</param>
+    <param name="versionformat">@PARENT_TAG@</param>
+    <param name="changesgenerate">enable</param>
+    <param name="versionrewrite-pattern">v(.*)</param>
   </service>
   <service mode="disabled" name="recompress">
     <param name="file">*.tar</param>

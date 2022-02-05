@@ -13,7 +13,7 @@ Macros:
 %_repository ports
 :Macros
 
-
+Prefer: yast2-schema-default
 %define gcc_version 11
 
 # testing new cycle algorithm
@@ -22,7 +22,7 @@ BuildFlags: genmetaalgo:1
 # The prjconf macros have a serial to help work around issues like https://github.com/openSUSE/open-build-service/issues/4088
 # On macros having impact on dep chains, update the serial (mainly ruby, python)
 # Using a date to indicate when we set the serial
-ExpandFlags: macroserial:20220107
+ExpandFlags: macroserial:20220129
 
 ExpandFlags: kiwi-nobasepackages
 ExpandFlags: docker-nobasepackages
@@ -149,6 +149,7 @@ Substitute: netcfg netcfg libnss_usrfiles2
   BuildFlags: useccache:gtk3
   BuildFlags: useccache:gtk3:doc
   BuildFlags: useccache:llvm9
+  BuildFlags: useccache:nodejs-electron
   buildflags: useccache:tensorflow
   buildflags: useccache:tensorflow2:hpc
   buildflags: useccache:tensorflow2:hpc-openmpi2
@@ -872,7 +873,7 @@ Prefer: -zvbi-devel-32bit
 Prefer: -zziplib-devel-32bit
 
 # Ruby stuff - quite a few packages exist in multiple versions in the distro; in each case, the Preference is on the 'unversioned' package
-Prefer: ruby2.7-rubygem-fast_gettext ruby3.0-rubygem-fast_gettext
+Prefer: ruby2.7-rubygem-fast_gettext ruby3.1-rubygem-fast_gettext
 Prefer: ruby2.7-rubygem-i18n
 Prefer: ruby2.7-rubygem-rack
 Prefer: ruby2.7-rubygem-sass-rails
@@ -1339,30 +1340,26 @@ Macros:
 
 ### Things to define default ruby stuff for the distro
 
-%rb_default_ruby        ruby30
-%rb_default_ruby_suffix ruby3.0
-%rb_default_ruby_abi    ruby:3.0.0
+%rb_default_ruby        ruby31
+%rb_default_ruby_suffix ruby3.1
+%rb_default_ruby_abi    ruby:3.1.0
 
-%rb_build_ruby_abis     ruby:2.7.0 ruby:3.0.0
-%rb_build_versions      ruby27 ruby30
+%rb_build_ruby_abis     ruby:3.1.0
+%rb_build_versions      ruby31
 :Macros
 
-%if "%{_project}" != "openSUSE:Factory:Staging:L"
 Macros:
-%_with_ruby27               1
-%_with_ruby30               1
+%_with_ruby31               1
 :Macros
 
-%define _with_ruby27         1
-%define _with_ruby30         1
-%endif
+%define _with_ruby31         1
 
-%define rb_default_ruby        ruby30
-%define rb_default_ruby_suffix ruby3.0
-%define rb_default_ruby_abi    ruby:3.0.0
+%define rb_default_ruby        ruby31
+%define rb_default_ruby_suffix ruby3.1
+%define rb_default_ruby_abi    ruby:3.1.0
 
-%define rb_build_ruby_abis     ruby:2.7.0 ruby:3.0.0
-%define rb_build_versions      ruby27 ruby30
+%define rb_build_ruby_abis     ruby:3.1.0
+%define rb_build_versions      ruby31
 
 Prefer: %{rb_default_ruby_suffix}-rubygem-asciidoctor
 Prefer: %{rb_default_ruby_suffix}-rubygem-bundler
@@ -1652,7 +1649,7 @@ Macros:
 %_repository snapshot
 :Macros
 
-
+Prefer: yast2-schema-default
 %define gcc_version 11
 
 # testing new cycle algorithm
@@ -1661,7 +1658,7 @@ BuildFlags: genmetaalgo:1
 # The prjconf macros have a serial to help work around issues like https://github.com/openSUSE/open-build-service/issues/4088
 # On macros having impact on dep chains, update the serial (mainly ruby, python)
 # Using a date to indicate when we set the serial
-ExpandFlags: macroserial:20220107
+ExpandFlags: macroserial:20220129
 
 ExpandFlags: kiwi-nobasepackages
 ExpandFlags: docker-nobasepackages
@@ -1788,6 +1785,7 @@ Substitute: netcfg netcfg libnss_usrfiles2
   BuildFlags: useccache:gtk3
   BuildFlags: useccache:gtk3:doc
   BuildFlags: useccache:llvm9
+  BuildFlags: useccache:nodejs-electron
   buildflags: useccache:tensorflow
   buildflags: useccache:tensorflow2:hpc
   buildflags: useccache:tensorflow2:hpc-openmpi2
@@ -2511,7 +2509,7 @@ Prefer: -zvbi-devel-32bit
 Prefer: -zziplib-devel-32bit
 
 # Ruby stuff - quite a few packages exist in multiple versions in the distro; in each case, the Preference is on the 'unversioned' package
-Prefer: ruby2.7-rubygem-fast_gettext ruby3.0-rubygem-fast_gettext
+Prefer: ruby2.7-rubygem-fast_gettext ruby3.1-rubygem-fast_gettext
 Prefer: ruby2.7-rubygem-i18n
 Prefer: ruby2.7-rubygem-rack
 Prefer: ruby2.7-rubygem-sass-rails
@@ -2978,30 +2976,26 @@ Macros:
 
 ### Things to define default ruby stuff for the distro
 
-%rb_default_ruby        ruby30
-%rb_default_ruby_suffix ruby3.0
-%rb_default_ruby_abi    ruby:3.0.0
+%rb_default_ruby        ruby31
+%rb_default_ruby_suffix ruby3.1
+%rb_default_ruby_abi    ruby:3.1.0
 
-%rb_build_ruby_abis     ruby:2.7.0 ruby:3.0.0
-%rb_build_versions      ruby27 ruby30
+%rb_build_ruby_abis     ruby:3.1.0
+%rb_build_versions      ruby31
 :Macros
 
-%if "%{_project}" != "openSUSE:Factory:Staging:L"
 Macros:
-%_with_ruby27               1
-%_with_ruby30               1
+%_with_ruby31               1
 :Macros
 
-%define _with_ruby27         1
-%define _with_ruby30         1
-%endif
+%define _with_ruby31         1
 
-%define rb_default_ruby        ruby30
-%define rb_default_ruby_suffix ruby3.0
-%define rb_default_ruby_abi    ruby:3.0.0
+%define rb_default_ruby        ruby31
+%define rb_default_ruby_suffix ruby3.1
+%define rb_default_ruby_abi    ruby:3.1.0
 
-%define rb_build_ruby_abis     ruby:2.7.0 ruby:3.0.0
-%define rb_build_versions      ruby27 ruby30
+%define rb_build_ruby_abis     ruby:3.1.0
+%define rb_build_versions      ruby31
 
 Prefer: %{rb_default_ruby_suffix}-rubygem-asciidoctor
 Prefer: %{rb_default_ruby_suffix}-rubygem-bundler
