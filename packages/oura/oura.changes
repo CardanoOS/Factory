@@ -1,4 +1,38 @@
 -------------------------------------------------------------------
+Sun Feb 06 20:49:20 UTC 2022 - Mark Stopka <mstopka@opensuse.org>
+
+- Update to version 1.1.0:
+  * Release v1.1.0
+  * docs: Add documentation for new v1.1 features (#126)
+  * feat(model): include tx_hash in TransactionRecord (#123)
+  * feat: Introduce stateful cursor (#116)
+  * feat(BlockRecord): include previous block hash (#120)
+  * chore(deps): Use Pallas 0.4.0 (#118)
+  * fix: EventWriter::standalone() inaccessible (#115)
+  * refactor: Streamline access shared utilities (#108)
+  * Add codeowners files
+  * Make `mod model` public (#109)
+  * chore(deps): bump clap from 3.0.12 to 3.0.13 (#105)
+  * fix: Make bech32 encoding network-aware (#104)
+  * ci: Start linting both code and some support files (#96)
+  * chore(deps): bump serde from 1.0.135 to 1.0.136 (#102)
+  * fix: Slot to timestamp mapping matches public explorers (#101)
+  * ci: Add testdrive for logs sink (#98)
+  * chore(deps): bump clap from 3.0.10 to 3.0.12 (#99)
+  * ci(style): Add EditorConfig and relevant GH Action (#91)
+  * chore(deps): bump serde from 1.0.134 to 1.0.135 (#89)
+  * chore(deps): bump tui from 0.16.0 to 0.17.0 (#90)
+  * chore(deps): bump serde_json from 1.0.75 to 1.0.78 (#88)
+  * docs: Add contributing guide (#83)
+  * fix: dump build without 'logs' feature (#82)
+  * feat: Introduce 'stoud' + 'logs' sink (#77)
+  * chore(deps): bump serde from 1.0.133 to 1.0.134
+  * chore: remove explicit of 'use serde_derive'
+  * chore(deps): bump clap from 3.0.9 to 3.0.10
+  * chore(deps): bump clap from 3.0.7 to 3.0.9
+  * feat(watch): Add output throttle cli arg
+
+-------------------------------------------------------------------
 Fri Jan 28 09:57:57 UTC 2022 - Mark Stopka <mstopka@opensuse.org>
 
 - Initial package release

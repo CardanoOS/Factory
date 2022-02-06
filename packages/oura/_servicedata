@@ -1,4 +1,4 @@
 <servicedata>
 <service name="tar_scm">
                 <param name="url">https://github.com/txpipe/oura.git</param>
-              <param name="changesrevision">fe56cb71cd7087ad647e0072b27f5f52cf913c14</param></service></servicedata>
+              <param name="changesrevision">c94dc0c3b064b91ba35754191a14b958ea868f28</param></service></servicedata>

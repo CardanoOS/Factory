@@ -18,7 +18,7 @@
 %global pkg_name oura
 %global rustflags '-Clink-arg=-Wl,-z,relro,-z,now'
 Name:           %{pkg_name}
-Version:        1.0.2
+Version:        1.1.0
 Release:        0
 Summary:        The tail of Cardano
 License:        Apache-2.0
@@ -39,14 +39,14 @@ mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
 %build
-%{cargo_build}
+RUSTFLAGS=%{rustflags} %{cargo_build}
 
 %install
 # using cargo_install (only supports bindir)
-%{cargo_install}
+RUSTFLAGS=%{rustflags} %{cargo_install}
 
 %check
-%{cargo_test}
+RUSTFLAGS=%{rustflags} %{cargo_test}
 
 %files
 %license LICENSE
